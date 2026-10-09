@@ -1,5 +1,5 @@
-﻿export const phone = '770834017';
-export const whatsapp = 'https://wa.me/967770834017';
+﻿export const phone = '770831014';
+export const whatsapp = 'https://wa.me/967770831014';
 export const contact = `${whatsapp}?text=${encodeURIComponent('السلام عليكم، أريد الاستفسار عن أعمال البناء في صنعاء، وأرغب في معرفة التفاصيل.')}`;
 export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com').replace(/\/$/, '');
 export const services = [
