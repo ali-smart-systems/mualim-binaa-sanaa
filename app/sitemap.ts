@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {siteUrl,services,pages} from '@/lib/data';export default function sitemap():MetadataRoute.Sitemap{return ['/',...services.map(s=>'/'+s.slug),...pages.map(p=>'/'+p.slug)].map(path=>({url:siteUrl+path,changeFrequency:'monthly',priority:path==='/'?1:0.7}))}

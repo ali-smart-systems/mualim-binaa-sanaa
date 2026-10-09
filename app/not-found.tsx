@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <section className="section wrap text-center"><h1 className="heading">الصفحة غير موجودة</h1><p className="mb-8">يمكنك العودة إلى الصفحة الرئيسية واستعراض خدمات البناء.</p><Link className="btn primary" href="/">الرئيسية</Link></section>}
